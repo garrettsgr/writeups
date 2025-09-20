@@ -50,6 +50,7 @@ A local file inclusion vulnerability in the /download endpoint allows an attacke
 
 There are two open ports on the machine - 
 *22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)* 
+
 *80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.52* 
 
 The nmap scan also shows a redirect to http://titanic.htb, that I can add to the */etc/hosts* file. 
