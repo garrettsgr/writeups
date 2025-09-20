@@ -1,8 +1,13 @@
-# Room Name - Titanic
+# Hack the Box - Titanic
+
 **Author:** Garrett Segura
+
 **Date:** 2025/9/19
+
 **Difficulty:** Easy
+
 **OS:**  Linux
+
 **Summary**: An easy Linux box involving a local file inclusion vulnerability that allows users to dump the database, retrieve credentials, and exploit an vulnerable binary to gain root level access.
 
 ---
