@@ -73,7 +73,7 @@ Hello.....  renu
       I tell you something Important.Your Password is too Week So Change Your Password
 Don't Underestimate it.......
 ```
-Another potential username, `renu`. The file mentions weak passwords, and with no other endpoints found on the webserver right now, we can background a weak credential bruteforce. Since the file specifically mentions `renu` has a weak password, I will start there burteforcing ssh (since there is seemingly no other way in right now), while continuing to enumerate.
+Another potential username, `renu`. The file mentions weak passwords, and with no other endpoints found on the webserver right now, we can background a weak credential bruteforce. Since the file specifically mentions `renu` has a weak password, I will start there bruteforcing ssh (since there is seemingly no other way in right now), while continuing to enumerate.
 
 ### SSH bruteforce
 `hydra -l renu -vv -P /usr/share/wordlists/rockyou.txt ssh://192.168.164.230`
